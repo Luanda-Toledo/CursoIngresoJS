@@ -7,10 +7,10 @@ function mostrar()
 	//Declaro una variable 
 	var nombreIngresado;
 
-	//Le asignamos el valor ingresado por el usuario a la variable
-	nombreIngresado = document.getElementById("txtIdNombre").value;
+	// Le asignamos a la variable el valor que ingreso el usuario
+	nombreIngresado = prompt("Ingrese su nombre");
 
-	//Pasamos el valor de la variable atraves del alert
-	alert("Bienvenido " + nombreIngresado);
+	//Al metodo le asignamos el valor que se almaceno en la variable
+	document.getElementById("txtIdNombre").value = nombreIngresado;
 }
 
