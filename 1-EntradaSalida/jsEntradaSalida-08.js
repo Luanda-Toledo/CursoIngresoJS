@@ -1,8 +1,10 @@
+
 /*
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resto entre el dividendo y el divisor.
-ej.: "El resto es 0 ."*/
+ej.: "El resto es 0 ."
+*/
 function SacarResto()
 {
 	//Declaramos las 3 variables
@@ -24,3 +26,4 @@ function SacarResto()
 	//Mostramos el resultado atraves de un alert
 	alert("El resto es " + resultadoRestoDeLaDivision);
 }
+

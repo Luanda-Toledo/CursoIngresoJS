@@ -66,14 +66,17 @@ function piedra() { // El caso de que el usuario elija piedra -> NUMERO 1
 		case "Piedra":
 			alert(mensajeEmpate + eleccionMaquina);
 			contadorDeEmpates++;
+			mostrarResultado();
 			break;
 		case "Papel":
 			alert(mensajePerdio + eleccionMaquina);
 			contadorDePerdidas++;
+			mostrarResultado();
 			break;
 		default:
 			alert(mensajeGano + eleccionMaquina);
 			contadorDeGanadas++;
+			mostrarResultado();
 			break;
 	}
 
@@ -86,14 +89,17 @@ function papel() {
 		case "Piedra":
 			alert(mensajeGano + eleccionMaquina);
 			contadorDeGanadas++;
+			mostrarResultado();
 			break;
 		case "Papel":
 			alert(mensajeEmpate + eleccionMaquina);
 			contadorDeEmpates++;
+			mostrarResultado();
 			break;
 		default:
 			alert(mensajePerdio + eleccionMaquina);
 			contadorDePerdidas++;
+			mostrarResultado();
 			break;
 	}
 
@@ -106,14 +112,17 @@ function tijera() {
 		case "Piedra":
 			alert(mensajePerdio + eleccionMaquina);
 			contadorDePerdidas++;
+			mostrarResultado();
 			break;
 		case "Papel":
 			alert(mensajeGano + eleccionMaquina);
 			contadorDeGanadas++;
+			mostrarResultado();
 			break;
 		default:
 			alert(mensajeEmpate + eleccionMaquina);
 			contadorDeEmpates++;
+			mostrarResultado();
 			break;
 	}
 
